@@ -1,4 +1,4 @@
 # Leave Application Management System 
-# MySQL
-Username: root
-Password: -
+## MySQL
+* Username: `root`
+* Password: ` `
