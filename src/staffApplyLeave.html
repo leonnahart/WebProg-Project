@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>LandingPage</title>
+
+        <link rel="stylesheet" href="css/staffLeaveStyle.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="title">Leave Management System</div>
+                    <div id="quick_links">
+                        <ul>   
+                            <li><a class="profile" href="StaffProfile.html">Staff</a></li>         
+                            <li>|</li>
+                            <li><a class="logout" href="index.php">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="content_panel">
+                    <div id="heading">Apply Leave<hr size="2" color="#FFFFFF" ice:repeating=""/>
+                </div>
+
+                    <p>&nbsp;</p>
+                    <form action="">
+                        <label for="full_name" ><span>Fullname <span class="required">*</span></span>
+                        <input type="text" name="Fullname" id="Fullname" placeholder="Fullname" required="required"/>
+                        </label>
+
+                        <label for="StaffID" ><span>Staff ID<span class="required">*</span></span>
+                        <input type="text" name="StaffID" id="StaffID" placeholder="Staff ID" required="required"/>
+                        </label>
+
+                        <p>
+                            <label for="E-mail" ><span>E-mail <span class="required">*</span></span>
+                            <input type="text" name="E-mail" id="E-mail" placeholder="E-mail" required="required" />
+                            </label>
+                        </p>
+
+                        <p>
+                            <label for="Phone Number" ><span>Phone Number <span class="required">*</span></span>
+                            <input type="text" name="Phone Number" id="Phone Number" placeholder="Phone Number" required="required" />
+                            </label>
+                        </P>
+
+                        <p>
+                            <label for="Date" ><span>Date <span class="required">*</span></span>
+                            <input type="text" name="Date" id="Date" placeholder="mm/dd/yy" required="required" />
+                            </P>
+                            <label>
+                            
+                            <input type="submit" value="Apply" />
+                        </p>
+                        <p>&nbsp; </p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </form>
+            </div>
+
+            <div id="side_bar">
+                <ul>
+                    <li class="menu_head">Menu</li>
+                </ul>
+                <ul>
+                    <li><a href="#">Apply Leave</a></li>
+                    <li><a href="staffViewResult.html">View Result</a></li>
+                    <li><a href="staffViewReport.html">View Report<a/a></li>            
+                </ul>
+            </div>
+
+            <div id="footer">
+            
+            </div>
+        </div>
+    </body>
+</html>

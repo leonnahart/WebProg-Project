@@ -1,13 +1,17 @@
+<!DOCTYPE html>
+
 <html>
 
-<head>
-<title>
-    Admin Landing page
-</title>
-</head>
-
-<body>
-    <h1>Welcome to Admin Landing Page</h1>
-</body>
-
+	<head>
+		<title>Admin Landing Page</title>
+		<link rel="stylesheet" href="css/adminlandingstyle.css">
+	</head>
+	
+	<body>
+		<h1>Welcome To The System!!</h1>
+		
+		<button onclick= "document.location='adminAdd.html'">Add User</button><br/>
+		
+		<button onclick= "document.location='adminEdit.php'">Edit User</button>
+	</body>
 </html>
