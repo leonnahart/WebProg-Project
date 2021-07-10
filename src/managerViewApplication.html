@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>View Apply Leave</title>
+
+        <link rel="stylesheet" href="css/managerViewReport.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="title">Leave Management System</div>
+                    <div id="quick_links">
+                        <ul>   
+                            <li><a class="profile" href="Profile.html">Manager</a></li>         
+                            <li>|</li>
+                            <li><a class="logout" href="index.php">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div id="content_panel">
+                <div id="heading">View Leave Application<hr size="2" color="#FFFFFF" ice:repeating=""/>
+            </div>
+                           
+                <p>&nbsp;</p>
+                <form>
+                <center>
+                    <table>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+
+                        <tr>
+                            <td>1.</td>
+                            <td>Ellie</td>
+                            <td>08/19/2021</td>
+                            <td>
+                                <input type="radio" name="status" value="Accept">Accept
+                                <input type="radio" name="status" value="Reject">Reject
+                            </td>             
+                        </tr>
+
+                        <tr>
+                            <td>2.</td>
+                            <td>Frank</td>
+                            <td>09/13/2021</td>
+                            <td>
+                                <input type="radio" name="status" value="Accept">Accept
+                                <input type="radio" name="status" value="Reject">Reject
+                            </td> 
+                        </tr>
+
+                        <tr>
+                            <td>3.</td>
+                            <td>Gerrard</td>
+                            <td>11/21/2021</td>
+                            <td>
+                                <input type="radio" name="status" value="Accept">Accept
+                                <input type="radio" name="status" value="Reject">Reject
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit">
+                </center>
+                </form>
+
+            </div>
+            
+            <div id="side_bar">
+                <ul>
+                    <li class="menu_head">Menu</li>
+                </ul>
+                <ul>
+                    <li><a href="#">View Application</a></li>
+                    <li><a href="managerViewReport.html">View Report</a></li>
+                </ul>
+
+            </div>
+                
+            <div id="footer">
+                    
+            </div>
+        </div>
+    </body>
+</html>
