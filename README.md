@@ -5,21 +5,21 @@
 
 #### Admin
 * Username: `Annie`
-* Password: `admin1`
+Password: `admin1`
 
 * Username: `Adam`
-* Password: `admin2`
+Password: `admin2`
 
 #### Manager
 * Username: `Bobby`
-* Password: `manager1`
+Password: `manager1`
 
 * Username: `Adam`
-* Password: `manager2`
+Password: `manager2`
 
 #### Staff
-* Username: `Annie`
-* Password: `staff1`
+* Username: `Chad`
+Password: `staff1`
 
-* Username: `Adam`
-* Password: `staff2`
+* Username: `Cindy`
+Password: `staff2`
