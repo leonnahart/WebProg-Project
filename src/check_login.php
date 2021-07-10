@@ -40,10 +40,7 @@ switch($_SESSION["LEVEL"])
         echo "<a href='index.php'>Back to login page</a>"; 
         break;
     case 2 :
-        echo "<h2>You log in as MANAGER</h2>";
-        echo "<h3>Hello ".$_SESSION["USER"]." with access level ".$_SESSION["LEVEL"]."</h3>";
-        echo "<a href='managerMain.php'>Enter Site</a><br/><br/>";
-        echo "<a href='index.php'>Back to login page</a>"; 
+        header("Location: managerLanding.html"); 
         break;
     case 3 :
         header("Location: staffLanding.html");

@@ -52,13 +52,14 @@ body {
 }
 
 
+
 #quick_links ul li a.profile{
-	background-image: url(/images/profile.png);
+	background-image: url(images/profile.png);
 	padding: 0 0 0 20px;
 	background-repeat: no-repeat;	
 }
 #quick_links ul li a.logout{
-	background-image:url(/images/logout.png);
+	background-image:url(images/logout.png);
 	padding: 0 0 0 20px;
 	background-repeat: no-repeat;	
 }
@@ -303,4 +304,105 @@ body {
 #form legend
 {
 	text-align:left;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+container {
+  width: 95%;
+  margin-left: 50px;
+  
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px auto;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 30px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.card-body {
+  padding: 50px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.card {
+  width: 40%;
+  background: #fff;
+  border: 3px solid #ccc;
+  margin-bottom: auto;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 10px 10px;
+  background: #50C878;
+  color: #fff;
+}
+
+.card-body {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 90px;
+  text-decoration: none;
+  padding: 1px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 800%;
+  }
 }
