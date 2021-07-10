@@ -14,7 +14,7 @@ Password: `admin2`
 * Username: `Bobby`
 Password: `manager1`
 
-* Username: `Adam`
+* Username: `Beth`
 Password: `manager2`
 
 #### Staff
